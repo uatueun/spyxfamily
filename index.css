@@ -1,0 +1,31 @@
+body {
+    background-color: #8EA99B;
+}
+
+.logoTitle {
+    width: calc(100%/3);
+    position: absolute;
+    padding: 40px;
+    max-width: 600px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.logoTitle a span {
+    display: inline-block;
+    position: relative;
+}
+
+.logoTitle a {
+    display: block;
+    text-decoration: 0;
+    color: #000;
+    font-weight: 800;
+}
+
+.textTitle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
